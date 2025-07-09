@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-links {
+    width: 200px;
+    height: 150px;
+    background-color: #FFB643;
+    color: #000;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-center {
+    justify-content: center;
+}
+/* nav bar styling */
+nav {
+    justify-content: space-between;
+    padding: 2%;
+    background-color: #4535AA;
+    color: #fff;
+}
+
+#nav-options a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #FFB643;
+    border-radius: 5px;
+    margin-right: 4px;
+}
+
+#nav-options a:hover {
+    background-color: #fff;
+    color: #FFB643;
+    border: solid 1px #FFB643;
+}
+
+
+/* Profile info */
+.header {
+    padding: 30px;
+    background-color: #000;
+}
+
+.user-info {
+    flex: 4;
+    padding: 40px;
+    color: #eee;
+}
+
+
+.user-pic {
+    flex: 1;
+    padding: 40px;
+}
+
+/*
+   text colors 
+*/
+
+.text-yellow {
+    color: #ffb643
+}
+
+.text-pink {
+    color: pink
+}
+
+.img-circle {
+    width: 250px;    /* Set the width of the image */
+    height: 250px;   /* Set the height of the image */
+    border-radius: 50%;  /* This makes the image a circle */
+}
+
+.img-responsive {
+    height: auto;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.p-2 {
+    padding: 2px;
+}
+
+/* 
+form styling
+*/
+
+input,textarea {
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    width: 250px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #4535AA;
+    color: #eee;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    padding: 10px 15px;
+}
